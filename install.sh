@@ -9,7 +9,15 @@ CYAN='\033[1;36m'
 GREEN='\033[1;32m'
 YELLOW='\033[1;33m'
 RED='\033[1;31m'
-NC='\033[0m' 
+NC='\033[0m'
+
+echo -e "${GREEN}Starting Bot...${NC}"
+
+# Install requirements
+pip install -r requirements.txt
+
+# Start bot
+python bot.py
 
 clear
 
