@@ -17,7 +17,7 @@ echo -e "${GREEN}Starting Bot...${NC}"
 pip install -r requirements.txt
 
 # Start bot
-python bot.py
+python laxxy.py
 
 clear
 
